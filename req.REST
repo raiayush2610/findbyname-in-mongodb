@@ -1,0 +1,25 @@
+POST http://localhost:2610/item/post
+Content-Type: application/json
+
+
+    {
+    "foodName": "cholla_bhature",
+    "foodPrice": 120
+    }
+###
+
+
+Get http://localhost:2610/food/carts
+Content-Type: application/json
+
+###
+GET http://localhost:2610/food/curd_Rice
+Content-Type: application/json
+
+###
+DELETE http://localhost:2610/food/ayush
+Content-Type: application/json
+
+###
+DELETE http://localhost:2610/cart/empty
+
